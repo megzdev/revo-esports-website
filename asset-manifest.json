@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/revo-esports-website/static/css/main.e4b45cb1.css",
-    "main.js": "/revo-esports-website/static/js/main.e3829e4f.js",
+    "main.js": "/revo-esports-website/static/js/main.632ea28f.js",
     "static/js/453.9fa589f1.chunk.js": "/revo-esports-website/static/js/453.9fa589f1.chunk.js",
     "index.html": "/revo-esports-website/index.html",
     "main.e4b45cb1.css.map": "/revo-esports-website/static/css/main.e4b45cb1.css.map",
-    "main.e3829e4f.js.map": "/revo-esports-website/static/js/main.e3829e4f.js.map",
+    "main.632ea28f.js.map": "/revo-esports-website/static/js/main.632ea28f.js.map",
     "453.9fa589f1.chunk.js.map": "/revo-esports-website/static/js/453.9fa589f1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e4b45cb1.css",
-    "static/js/main.e3829e4f.js"
+    "static/js/main.632ea28f.js"
   ]
 }
