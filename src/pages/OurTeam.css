@@ -1,0 +1,150 @@
+.our-team-page {
+  min-height: 100vh;
+  background-color: #000000;
+  padding-top: 120px;
+  padding-bottom: 50px;
+  font-family: 'Inria Sans', sans-serif;
+}
+
+.team-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.team-title {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 60px;
+  letter-spacing: 2px;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  justify-items: center;
+}
+
+.team-member-card {
+  background-color: #111111;
+  border: 3px solid #1e3a8a;
+  border-radius: 15px;
+  padding: 30px 20px;
+  text-align: center;
+  transition: all 0.3s ease;
+  transform: skewX(-5deg);
+  width: 280px;
+  max-width: 100%;
+  box-shadow: 0 8px 25px rgba(30, 58, 138, 0.3);
+}
+
+.team-member-card:hover {
+  transform: skewX(-2deg) translateY(-10px);
+  border-color: #2563eb;
+  box-shadow: 0 15px 40px rgba(30, 58, 138, 0.5);
+}
+
+.member-image-container {
+  margin-bottom: 20px;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 15px;
+  border: 3px solid #1e3a8a;
+}
+
+.member-image {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  transition: all 0.3s ease;
+}
+
+.team-member-card:hover .member-image {
+  transform: scale(1.05);
+}
+
+.member-name {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin: 15px 0 10px 0;
+  letter-spacing: 1px;
+}
+
+.member-role {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #1e3a8a;
+  margin: 0;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .team-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+  
+  .team-member-card {
+    width: 250px;
+  }
+}
+
+@media (max-width: 768px) {
+  .our-team-page {
+    padding-top: 150px;
+  }
+  
+  .team-title {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+  }
+  
+  .team-grid {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+  
+  .team-member-card {
+    width: 280px;
+    transform: skewX(-3deg);
+  }
+  
+  .team-member-card:hover {
+    transform: skewX(-1deg) translateY(-5px);
+  }
+}
+
+@media (max-width: 480px) {
+  .team-container {
+    padding: 0 15px;
+  }
+  
+  .team-title {
+    font-size: 2rem;
+  }
+  
+  .team-member-card {
+    width: 100%;
+    max-width: 300px;
+    padding: 25px 15px;
+  }
+  
+  .member-image-container {
+    height: 180px;
+  }
+  
+  .member-name {
+    font-size: 1.3rem;
+  }
+  
+  .member-role {
+    font-size: 0.9rem;
+  }
+}
