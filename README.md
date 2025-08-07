@@ -1,70 +1,107 @@
-# Getting Started with Create React App
+# REVO Esports Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A professional esports organization website built with React.js, featuring modern design and responsive layout.
 
-## Available Scripts
+## 🎮 Features
 
-In the project directory, you can run:
+- **Modern Design**: Clean, professional design with dark theme
+- **Responsive Layout**: Optimized for all devices (desktop, tablet, mobile)
+- **Multiple Pages**: Home, About, Our Team, Contact
+- **Contact Form**: Direct integration with Discord webhook
+- **Team Showcase**: Professional team member cards
+- **Custom Scrollbar**: Branded blue scrollbar design
+- **SEO Optimized**: Custom favicon and meta descriptions
 
-### `npm start`
+## 🚀 Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **React 18+**: Modern React with hooks
+- **React Router DOM**: Client-side routing
+- **CSS3**: Custom styling with animations
+- **Inria Sans Font**: Professional typography
+- **Discord Webhook**: Real-time contact form integration
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📱 Pages
 
-### `npm test`
+### Home Page
+- Hero section with "REVO esports" branding
+- "Born to Win, Trained to Dominate" tagline
+- Call-to-action button linking to About page
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### About Page
+- Team introduction with professional imagery
+- League of Legends division showcase
+- Our Teams section with game-specific cards
 
-### `npm run build`
+### Our Team Page
+- 6 team member cards with photos and roles
+- Responsive grid layout
+- Hover effects and professional styling
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Contact Page
+- Clean contact form (Name, Email, Message)
+- Real-time Discord integration
+- Form validation and user feedback
+- Professional notification system
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🛠️ Installation & Setup
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone the repository:
+```bash
+git clone https://github.com/your-username/revo-esports-website.git
+cd revo-esports-website
+```
 
-### `npm run eject`
+2. Install dependencies:
+```bash
+npm install
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. Start the development server:
+```bash
+npm start
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. Open [http://localhost:3000](http://localhost:3000) to view in browser
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 📦 Build for Production
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+npm run build
+```
 
-## Learn More
+## 🎨 Customization
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **Colors**: Main theme uses black background with blue accents (#1e3a8a)
+- **Font**: Inria Sans throughout the website
+- **Images**: Located in `/public` folder
+- **Components**: Modular components in `/src/components`
+- **Pages**: Individual pages in `/src/pages`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 📞 Contact Integration
 
-### Code Splitting
+The contact form is integrated with Discord webhook for real-time notifications. Messages include:
+- Sender name and email
+- Message content
+- Timestamp
+- Professional formatting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🏆 Team Information
 
-### Analyzing the Bundle Size
+REVO is a professional esports organization specializing in:
+- League of Legends
+- Wild Rift
+- Competitive gaming excellence
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+**Motto**: "Born to Win, Trained to Dominate"
 
-### Making a Progressive Web App
+## 📄 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+This project is for REVO esports organization.
 
-### Advanced Configuration
+## 🤝 Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Built with ❤️ for competitive gaming excellence.
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**REVO Esports** - Where Champions Are Made
