@@ -30,7 +30,7 @@ const Header = () => {
         {/* Logo */}
         <div className="logo-container">
           <Link to="/">
-            <img src="/logo.png" alt="REVO Logo" className="logo" />
+            <img src={`${process.env.PUBLIC_URL}/logo.png`} alt="REVO Logo" className="logo" />
           </Link>
         </div>
 

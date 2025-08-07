@@ -8,7 +8,7 @@ const About = () => {
         <h1 className="about-title">ABOUT REVO</h1>
         <div className="about-content">
           <div className="team-image-container">
-            <img src="/team.png" alt="REVO Team" className="team-image" />
+            <img src={`${process.env.PUBLIC_URL}/team.png`} alt="REVO Team" className="team-image" />
           </div>
           <div className="about-text">
             <p>REVO is a professional esports organization dedicated to excellence in competitive gaming. Our team consists of skilled players who have proven themselves in various tournaments and competitions.</p>
@@ -23,7 +23,7 @@ const About = () => {
             <p>From precise last-hitting to game-changing team fights, we dominate every lane and secure victory through superior skill and coordination.</p>
           </div>
           <div className="team-image-container">
-            <img src="/lol.png" alt="League of Legends Team" className="team-image" />
+            <img src={`${process.env.PUBLIC_URL}/lol.png`} alt="League of Legends Team" className="team-image" />
           </div>
         </div>
 
@@ -33,7 +33,7 @@ const About = () => {
           <div className="teams-grid">
             <div className="team-card">
               <div className="team-card-image">
-                <img src="/mm.png" alt="Wild Rift Team" className="team-logo" />
+                <img src={`${process.env.PUBLIC_URL}/mm.png`} alt="Wild Rift Team" className="team-logo" />
               </div>
               <h3 className="team-name">WILD RIFT</h3>
             </div>

@@ -6,32 +6,32 @@ const OurTeam = () => {
     {
       name: "Dama",
       role: "Main Adc",
-      image: "/nn.png"
+      image: `${process.env.PUBLIC_URL}/nn.png`
     },
     {
       name: "LIO",
       role: "Main Top",
-      image: "/nn.png"
+      image: `${process.env.PUBLIC_URL}/nn.png`
     },
     {
       name: "LuLu",
       role: "Main Support",
-      image: "/nn.png"
+      image: `${process.env.PUBLIC_URL}/nn.png`
     },
     {
       name: "Nal",
       role: "Main Jungle",
-      image: "/nn.png"
+      image: `${process.env.PUBLIC_URL}/nn.png`
     },
     {
       name: "MR AHMED",
       role: "Main MID",
-      image: "/nn.png"
+      image: `${process.env.PUBLIC_URL}/nn.png`
     },
     {
       name: "Jinx",
       role: "NOT HERE",
-      image: "/nn.png"
+      image: `${process.env.PUBLIC_URL}/nn.png`
     }
   ];
 
